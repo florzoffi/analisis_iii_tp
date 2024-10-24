@@ -3,7 +3,7 @@ from scipy.io.wavfile import write
 
 # Parámetros generales de la señal
 sample_rate = 44100  # Frecuencia de muestreo en Hz
-duration = 5  # Duración en segundos
+duration = 60  # Duración en segundos
 N = int(sample_rate * duration)  # Número total de muestras
 
 # Generar la primera señal de ruido blanco
